@@ -6,7 +6,7 @@ resource "aws_vpc" "main" { #Resource Block -> Create any resource in terraform
   }
 }
 
-resource "aws_vpc" "main" { #Resource Block -> Create any resource in terraform
+resource "aws_vpc" "main2" { #Resource Block -> Create any resource in terraform
   cidr_block       = "10.0.0.0/16"
   instance_tenancy = "default"
   tags = {
